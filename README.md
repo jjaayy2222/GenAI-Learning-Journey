@@ -1,7 +1,14 @@
 # 🌱 GenAI Learning Journey
 
+
+> 🚀 **생성형 AI 학습 및 실습 프로젝트** 
+> OpenAI API 기반 프롬프트 엔지니어링, 실습 코드, 자동화 스크립트가 포함된 체계적인 GenAI 학습 저장소입니다.
+
 > **생성형 AI 전문가로 성장하는 개인 학습 기록**  
 > 기초부터 실전까지, 나만의 체계적 학습 여정
+
+> 📚 **주요 구성**: ChatGPT 기초 실습, 문서화 시스템, Git 자동화 도구
+> ⚡ **자동 커밋**: `python3 scripts/gen_genai_commit.py`로 Jay 스타일 커밋 메시지 자동 생성
 
 ## 🎯 현재 상황
 
@@ -38,7 +45,7 @@ cd 선택_GenAI/01_ChatGPT_basic
 
 - API 기초부터 고급 최적화까지
 - 프롬프트 엔지니어링 실전 기법  
-- 실습 프로젝트: 문서요약기, 감정분석기, AI튜터
+- ChatGPT, LLM, LangChain, LangGraph, RAG
 - [📂 바로 시작하기](./선택_GenAI/01_ChatGPT_basic/)
 
 ### 📁 문서 체계 (구축 중)
