@@ -1,0 +1,183 @@
+# ================================================
+# Environment & Secrets
+# ================================================
+.env
+.env.local
+.env.*.local
+
+# ================================================
+# Python
+# ================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================================
+# Virtual Environments (pyenv)
+# ================================================
+gen_env/
+.venv/
+venv/
+env/
+ENV/
+
+# ================================================
+# IDE & Editors
+# ================================================
+# VSCode
+.vscode/
+GenAI-Learning-Journey.code-workspace
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ================================================
+# Operating System
+# ================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# Linux
+*~
+
+# ================================================
+# Data Science & ML (pandas, numpy 관련)
+# ================================================
+# Data files
+*.csv #
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Numpy
+*.npy
+*.npz
+
+# Model files
+*.model
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Data cache
+.cache/
+cache/
+data/raw/
+data/processed/
+data/temp/
+
+# ================================================
+# OpenAI & API 관련
+# ================================================
+# API response cache
+.openai_cache/
+api_responses/
+responses/
+*.response
+
+# API usage logs
+api_usage.log
+token_usage.log
+
+# ================================================
+# Jupyter Notebook
+# ================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# ================================================
+# Testing & Coverage
+# ================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ================================================
+# Logs & Temporary Files
+# ================================================
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ================================================
+# Project Specific - Temporary Files  
+# ================================================
+# 임시 기록 파일들 (나중에 삭제 예정)
+선택_GenAI/02_chatGPT_platform/tbd.md
+선택_GenAI/03_chatGPT_applications/tbd.md
+docs/changelog/differences.md
+
+# 향후 임시 파일 패턴 (예방차 추가)
+*/tbd.md
+temp_*.md
+*.temp
+
+# ================================================
+# Documentation Build
+# ================================================
+docs/_build/
+site/
+
+# ================================================
+# 실습 결과 파일들 (선택적)
+# ================================================
+# 실습 중 생성되는 임시 파일들
+examples/output/
+examples/temp/
+examples/results/*.txt
+examples/results/*.json
+
+# 대용량 실습 데이터
+examples/large_data/
