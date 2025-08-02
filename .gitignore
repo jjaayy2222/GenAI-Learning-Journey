@@ -151,6 +151,10 @@ logs/
 *.bak
 *.swp
 
+# 자동 커밋 로그 파일
+docs/changelog/auto-commit-*.md
+
+
 # ================================================
 # Project Specific - Temporary Files  
 # ================================================
@@ -181,7 +185,6 @@ examples/results/*.json
 
 # 대용량 실습 데이터
 examples/large_data/
-
 
 # 05_폴더 작업 중 (임시 보관)
 선택_GenAI/05_LLM_data_services/
