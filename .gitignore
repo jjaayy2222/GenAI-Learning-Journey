@@ -9,6 +9,16 @@
 # Python
 # ================================================
 __pycache__/
+# Python 캐시 파일들
+*.pyc
+*.pyo
+*.pyd
+#./선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/4/__pycache__/
+#./선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/4/__pycache__/session.cpython-313.pyc
+#./선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/4/__pycache__/db.cpython-313.pyc
+#./선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/3/__pycache__/
+#./선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/3/__pycache__/db.cpython-313.pyc
+#./선택_GenAI/05_LLM_data_services/.DS_Store
 *.py[cod]
 *$py.class
 *.so
@@ -62,6 +72,9 @@ GenAI-Learning-Journey.code-workspace
 # ================================================
 # macOS
 .DS_Store
+.DS_Store?
+# macOS 시스템 파일
+./선택_GenAI/05_LLM_data_services/.DS_Store
 .AppleDouble
 .LSOverride
 ._*
@@ -89,6 +102,11 @@ Desktop.ini
 *.pickle
 *.h5
 *.hdf5
+
+# SQLite 데이터베이스 파일 (실습용 임시 파일)
+test.db
+*.sqlite
+*.sqlite3
 
 # Numpy
 *.npy
@@ -186,5 +204,7 @@ examples/results/*.json
 # 대용량 실습 데이터
 examples/large_data/
 
-# 05_폴더 작업 중 (임시 보관)
-선택_GenAI/05_LLM_data_services/
+# 작업 완료된 부분은 제외에서 해제
+# 미작업 부분만 임시 제외(08-03)
+선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/5/
+선택_GenAI/05_LLM_data_services/06_LangChain_LangGraph/
