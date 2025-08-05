@@ -206,5 +206,4 @@ examples/large_data/
 
 # 작업 완료된 부분은 제외에서 해제
 # 미작업 부분만 임시 제외(08-03)
-선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/5/
 선택_GenAI/05_LLM_data_services/06_LangChain_LangGraph/
