@@ -1,12 +1,9 @@
 # googlee-search-debug.md
+**작성일**: 2025-08-06
+**상황**: `Error during Google search: search() got an unexpected keyword argument 'num_results'` 출력
+**발생위치**: `/GenAI-Learning-Journey/선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/5/web.py`
 
 ### `google_search` 함수 디버깅 기록
-
-   >  
-   >  발생일: 2025-08-06
-   >  
-   >  발생위치: /GenAI-Learning-Journey/선택_GenAI/05_LLM_data_services/02_데이터_기반_서비스/5/web.py
-   > 
 
 #### 1. **에러 발생 상황**
 
